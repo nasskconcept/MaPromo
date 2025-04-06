@@ -86,4 +86,11 @@
     text-align: center;
     width: 100%;
   }
-  
+  .card.active::after {
+    opacity: 1;
+  }
+
+  .card.active {
+    color: transparent;
+    background-color: white;
+  }
