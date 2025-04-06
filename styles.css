@@ -52,6 +52,11 @@
     transition: all 0.3s ease;
     position: relative;
     overflow: hidden;
+
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    touch-action: manipulation;
   }
   
   .card:hover {
